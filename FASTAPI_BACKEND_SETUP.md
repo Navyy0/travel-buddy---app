@@ -32,13 +32,13 @@ Create a `.env` file in the project root (`d:\travel-buddy - Copy\.env`):
 VITE_API_URL=http://10.0.2.2:8000
 
 # Other configs (already have defaults)
-VITE_OLA_MAPS_KEY=7ESZWDQZLm4OdPwfVF5yDpyBiLM0qOkm74TMC93i
-VITE_FIREBASE_API_KEY=AIzaSyDfWPSRUN0WHyWiZVz0BmX2dbzUjksT0zY
-VITE_FIREBASE_AUTH_DOMAIN=ai-travel-4609c.firebaseapp.com
-VITE_FIREBASE_PROJECT_ID=ai-travel-4609c
-VITE_FIREBASE_STORAGE_BUCKET=ai-travel-4609c.firebasestorage.app
-VITE_FIREBASE_MESSAGING_SENDER_ID=999267496074
-VITE_FIREBASE_APP_ID=1:999267496074:web:9c71b162e0135da037bd73
+VITE_OLA_MAPS_KEY=
+VITE_FIREBASE_API_KEY=
+VITE_FIREBASE_AUTH_DOMAIN=
+VITE_FIREBASE_PROJECT_ID=
+VITE_FIREBASE_STORAGE_BUCKET=
+VITE_FIREBASE_MESSAGING_SENDER_ID=
+VITE_FIREBASE_APP_ID=
 ```
 
 **Quick setup:**
@@ -203,14 +203,5 @@ Android App → SQLite Database → Display
    - Check Pydantic model serialization
    - Verify `day_plans` structure matches frontend expectations
 
-## Next Steps
 
-1. ✅ Create `.env` file with `VITE_API_URL=http://10.0.2.2:8000`
-2. ✅ Ensure FastAPI backend has CORS enabled
-3. ✅ Verify FastAPI endpoints match expected format
-4. ✅ Test authentication flow
-5. ✅ Test itinerary fetching
-6. ✅ Test offline mode
-
-Your Android app is now ready to connect to your FastAPI MongoDB backend! 🚀
 
