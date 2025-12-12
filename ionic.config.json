@@ -1,0 +1,6 @@
+{
+  "name": "travel-buddy",
+  "integrations": {
+    "capacitor": {}
+  }
+}

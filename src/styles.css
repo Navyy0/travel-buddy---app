@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
+
+html, body, #root {
+  height: 100%;
+}
+
+body {
+  font-family: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+  margin: 0;
+  background: linear-gradient(180deg, #f6f8fb 0%, #eef4ff 100%);
+  color: #0f1724;
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale;
+}
+
+ion-app {
+  height: 100%;
+}
+
+:root{
+  --app-primary: #2563eb; /* deep blue */
+  --app-accent: #7c3aed; /* purple */
+  --app-surface: #ffffff;
+  --app-muted: #64748b;
+  --app-card-shadow: 0 8px 24px rgba(16,24,40,0.08);
+}
+
+.app-card{
+  background: var(--app-surface);
+  border-radius: 14px;
+  box-shadow: var(--app-card-shadow);
+  padding: 16px;
+  overflow: hidden;
+}
+
+pre {
+  background: #f8fafc;
+  border-radius: 8px;
+  padding: 12px;
+}
+
+.hero-title{
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--app-primary);
+  margin: 0 0 8px 0;
+}
+
+.muted{
+  color: var(--app-muted);
+}
+
+.action-row{
+  display:flex;
+  gap:8px;
+  flex-wrap:wrap;
+}
+
+.big-button {
+  --border-radius: 10px;
+  --background: linear-gradient(90deg, var(--app-primary), var(--app-accent));
+  color: white !important;
+  font-weight: 600;
+}
+
